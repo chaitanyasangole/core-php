@@ -1,0 +1,24 @@
+
+1)mysqli_connect('ip','username','password','databasename');
+
+ip :- ip of server , username : username of db ,
+password : password of db , databasename :It is dbname . It is optional .
+
+This method return the connection object.
+2) mysqli_query($con,$sql);
+
+$con=Connection object, $sql=All types of sql queries.
+
+This function return the resultset .
+
+3)mysqli_num_rows($res)
+This function tells us how many records are present in the resultset.
+
+4) mysqli_fetch_assoc()
+This function returns the associative array.
+Each element can 
+
+4) mysqli_fetch_array()
+This function returns the indexed array.
+
+$2y$13$mIsAvPAkuikN67fVLLrct.sViSDYShsHEwhfy0GudIdbc1Me3eNnW => rahul password
